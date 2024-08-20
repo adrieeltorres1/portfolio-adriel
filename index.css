@@ -1,27 +1,29 @@
 * {
-    background-color: #000000;
     color: #ffffff;
     font-family: "Nunito", sans-serif;
     margin: 0;
     padding: 0;
 }
-.dev-img {
-    height: 150px;
-    width: 150px;
-    border-radius: 400px;
+body {
+    background-color: black;
 }
+
 header {
-    display: block;
+    margin: 8px;
+    display: flex;
     align-items: center;
+    
+    & img {
+        height: 150px;
+        width: 150px;
+        border-radius: 400px;
+    }
     & h2 {
-        display: flex;
+        margin-left: 25px;
         justify-content: center;
-        margin-right: 800px;
     }
     & p {
-        display: flex;
-        justify-content: center;
-        margin-right: 790px;
+        display: block;
     }
     font-family: 300px;
     & strong {
@@ -44,4 +46,3 @@ main {
     width: 680px;
    }
 }
-
