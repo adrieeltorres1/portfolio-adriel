@@ -5,3 +5,43 @@
     margin: 0;
     padding: 0;
 }
+.dev-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 400px;
+}
+header {
+    display: block;
+    align-items: center;
+    & h2 {
+        display: flex;
+        justify-content: center;
+        margin-right: 800px;
+    }
+    & p {
+        display: flex;
+        justify-content: center;
+        margin-right: 790px;
+    }
+    font-family: 300px;
+    & strong {
+        color: #7CFFB0;
+    }
+
+}
+nav {
+    & a {
+        text-decoration: none;
+    }
+}
+a:hover { 
+ border-bottom: 3px solid #7CFFB0;
+}
+
+main {
+   & p {
+    height: 80px;
+    width: 680px;
+   }
+}
+
