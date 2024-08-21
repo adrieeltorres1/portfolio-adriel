@@ -1,39 +1,38 @@
 * {
     color: #ffffff;
+    background-color: black;
     font-family: "Nunito", sans-serif;
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
 }
-body {
-    background-color: black;
+.foto {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border-radius: 400px;
 }
-
 header {
-    margin: 8px;
+    margin-top: 8px;
     display: flex;
     align-items: center;
-    
-    & img {
-        height: 150px;
-        width: 150px;
-        border-radius: 400px;
+    & div {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
     }
-    & h2 {
-        margin-left: 25px;
-        justify-content: center;
-    }
-    & p {
-        display: block;
-    }
-    font-family: 300px;
     & strong {
-        color: #7CFFB0;
+        color: #7cffb0;
     }
-
 }
+
 nav {
-    & a {
-        text-decoration: none;
+    & ul {
+        display: flex;
+        margin-top: 8px;
+        gap: 8px;
     }
 }
 a:hover { 
@@ -41,8 +40,11 @@ a:hover {
 }
 
 main {
+    margin-top: 20px;
    & p {
     height: 80px;
     width: 680px;
    }
 }
+
+
