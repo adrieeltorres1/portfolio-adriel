@@ -1,50 +1,30 @@
 * {
+    margin: 0;
+    padding: 0;
     color: #ffffff;
     background-color: black;
     font-family: "Nunito", sans-serif;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    
 }
-.foto {
-    display: flex;
-    height: 150px;
+#principal {
+    & #foto {
     width: 150px;
-    border-radius: 400px;
-}
-header {
-    margin-top: 8px;
-    display: flex;
-    align-items: center;
-    & div {
-        display: flex;
-        flex-direction: column;
-        margin-left: 30px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 6px;
+    position: relative;
     }
-    & strong {
-        color: #7cffb0;
+    & img {
+        width: 100%;
+        border-radius: 50%;
+        position: relative;
+        z-index: 1;
+        width: 150px;
+        height: 150px;  
     }
-}
-
-nav {
-    & ul {
-        display: flex;
-        margin-top: 8px;
-        gap: 8px;
+    & main {
+        & #topo {
+            
+        }
     }
 }
-a:hover { 
- border-bottom: 3px solid #7CFFB0;
-}
-
-main {
-    margin-top: 20px;
-   & p {
-    height: 80px;
-    width: 680px;
-   }
-}
-
-
